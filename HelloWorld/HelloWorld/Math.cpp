@@ -1,8 +1,15 @@
 #define INTEGER int
 
+const char* Log(const char* message) {
+	return message;
+}
+
 #if 1
 INTEGER Multiply(int a, int b) {
-	int result = a * b;
-	return result;
+	Log("Multiply");
+	return a * b;
 }
 #endif
+int Mul() {
+	return 5 * 2;
+}

@@ -1,8 +1,5 @@
 #define INTEGER int
-
-const char* Log(const char* message) {
-	return message;
-}
+#include "Log.h"
 
 #if 1
 INTEGER Multiply(int a, int b) {

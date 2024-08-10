@@ -13,5 +13,4 @@ iptr = &i; // & gets the address in memory of the variable i and assigns it to i
 *iptr = 369; // *iptr is taking the address and "going" to it
 // so by doing (*iptr = 369) we assign 369 to i since iptr is pointing to i
 
-}
 ```

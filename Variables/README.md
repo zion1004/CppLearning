@@ -1,2 +1,2 @@
 # Variables
-Learn about the variables in c++
+Learn about variables and primitive data types in c++

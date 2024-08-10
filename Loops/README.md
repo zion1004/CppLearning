@@ -2,7 +2,7 @@
 Learn about for loops, while loops, and do-while loops
 
 ```cpp
-for ( expr1 : run once when loop starts; expr2 : condition ; expr3 : run every end of the loop){
+for ( expr1 /*run once when loop starts*/; expr2 /*condition*/ ; expr3 /*run every end of the loop*/){
   // condition is checked once
 
   // and also checked every time after the code in the block is done

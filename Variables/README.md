@@ -21,3 +21,9 @@ double d;
 ```cpp
 char c;
 ```
+
+> boolean
+```cpp
+bool b; // true or false
+// also 0 is false and any nonzero value is considered true
+```

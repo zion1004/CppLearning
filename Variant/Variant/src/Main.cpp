@@ -1,6 +1,16 @@
 #include <iostream>
 #include <variant>
 
+// one way variant might be used in a codebase
+enum class ErrorCode {
+	None = 0, NotFound, NoAccess
+};
+
+std::variant<std::string, ErrorCode> ReadFileAsString() {
+	return ErrorCode::NoAccess;
+}
+
+
 
 int main() {
 	std::variant<std::string, int> data;
